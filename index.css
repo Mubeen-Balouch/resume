@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Signika+Negative:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Signika+Negative:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.container {
+
+    display: flex;
+    
+    height: 100vh;
+}
+
+.side {
+
+
+
+    width: 200px;
+    background-color: grey; 
+    transition: transform 0.3s ease-in;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+    
+
+
+
+
+    
+
+    
+}
+.sidenew {
+    
+}
+
+.side nav {
+
+    padding: 67px 40px;
+    list-style: none;
+}
+
+
+.side nav li {
+
+    padding: 40px 0px;
+    color: wheat;
+}
+
+nav li a {
+    color: rgb(248, 247, 245);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 23px 1px;
+    padding: 20px 30px;
+    position: absolute;
+    left: 23px;
+    
+
+
+}
+.write {
+
+
+    
+    ;
+
+    width: 90vw;
+}
+
+.mmm{
+
+
+
+
+    height: 57vh;
+    width: 75vw;
+    margin: auto;
+ margin-top: 100px;
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.devpic img {
+
+    width: 270px;
+
+    height: 57vh;
+}
+
+.devinfo{
+
+font-size: 40px;
+font-family: "Poppins", sans-serif;
+font-weight: 200;
+}
+
+.btn{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 14px 24px;
+    background-color: rgb(139, 142, 148);
+    color: white;
+ font-size: 11px;
+ text-decoration: none;
+ border: 1px solid blackS;
+
+ 
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.buttons button:hover{
+
+ background-color: rgb(176, 172, 172);
+ color: white;
+}
+
+.main h1{
+    position: relative;
+left: 180px;
+
+}
+
+.form3 {
+
+    position: relative;
+    right: -40px;
+    padding: 23px 0px ;
+}
+
+
+.form3 div {
+
+    padding: 12px 0px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#myEmail {
+    width: 262px;
+}
+
+#phone {
+    width: 262px;
+}
+.main{
+
+ 
+ padding-top: 130px;
+
+}
+
+.button .btn {
+
+    width: 100px;
+    cursor: pointer;
+    
+    font-family: "Source Sans 3", sans-serif; 
+
+}
+.blogitem {
+
+    margin: 23px;
+    padding: 2px 14px;
+}
+
+.blogitem h2  {
+    margin: 15px 0px;
+}
+
+.blog h1 {
+
+    margin: 15px 35px;
+}
+
+.c1 {
+
+    width: 185px;
+    height: 8px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.c2 {
+
+    width: 185px;
+    height: 8px;
+    background-color: rgb(240, 252, 16);
+    border-radius: 10px;
+}
+.c3 {
+
+    width: 175px;
+    height: 8px;
+    background-color: rgb(96, 226, 60);
+    border-radius: 10px;
+}
+.c4 {
+
+    width: 85px;
+    height: 8px;
+background-color: rgb(53, 65, 233);
+border-radius: 10px;
+}
+.c5 {
+
+    width: 40px;
+    height: 8px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.twoh {
+
+    padding: 6px 9px;
+}
+
+.intromain {
+    margin-left: 14px;
+    
+}
+
+.intromain ,   .intro2 {
+
+    margin-top: 11px;
+}
+.sidebarGo{
+    transform: translate(-250px , 0);
+    
+}
+
+@media (max-width : 734px)
+ {
+.devpic img {
+    display: none;
+}
+.devinfo {
+    display: flex;
+flex-direction: column;
+
+
+}
+   .side {
+    width: 30vw gt;
+
+
+   }
+
+   .side nav li a {
+margin: 0 -30px;
+    
+   }
+     
+}
+
+.hamburger img{
+
+    cursor: pointer;
+    
+    
+}
+
+.cross {
+height: 24px;
+margin-right: 100px;
+position: absolute;
+left: 140px;
+top: 9px;
+
+
+
+}
+
+.ham {
+
+height: 50px;
+position: absolute;
+left: -3px;
+top: -5px;
+
+}
+
+.me{
+    font-size: 17px;
+    font-family: "Oswald", sans-serif; 
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+}
+
+.mubeen {
+    font-size: 53px;
+    font-weight: 500;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.info {
+    font-size: 36px;
+}
+
+.mub {
+
+    font-size: 43px;
+}
+
+.blogitem h2 {
+    font-family: "Oswald", sans-serif; 
+}
+
+.form h1 {
+
+    font-family: "Source Sans 3", sans-serif; 
+}
